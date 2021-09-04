@@ -15,6 +15,6 @@
       "jsx": true
     }
   },
-  "extends": ["plugin:vue/vue3-recommended", "eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier", "plugin:prettier/recommended"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier-vue/recommended", "plugin:vue/vue3-recommended"],
   "rules": {}
 }
