@@ -31,8 +31,7 @@ import Glass from '@/components/element/Glass.vue';
     width: 128px;
     justify-content: center;
     align-items: center;
-    text-shadow: 1px 2px 2px rgba(darken($gray-1, 5%), 25%),
-        -1px -2px 2px rgba(lighten($gray-1, 50%), 25%);
+    text-shadow: 1px 2px 2px rgba(darken($gray-1, 5%), 25%), -1px -2px 2px rgba(lighten($gray-1, 50%), 25%);
 
     &--vertical,
     &--horizon {

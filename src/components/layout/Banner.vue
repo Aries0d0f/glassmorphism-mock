@@ -12,10 +12,7 @@ const props = withDefaults(
 </script>
 
 <template>
-  <div
-    class="banner banner-container"
-    :class="{ fullscreen: mode === 'fullscreen' }"
-  >
+  <div class="banner banner-container" :class="{ fullscreen: mode === 'fullscreen' }">
     <slot />
   </div>
 </template>
