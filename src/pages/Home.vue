@@ -19,12 +19,23 @@ import Glass from '@/components/element/Glass.vue';
 <style lang="scss" scoped>
 @import '@/assets/styles/shared';
 
+#home {
+  background: linear-gradient(120deg, $gray-6, $gray-5);
+}
+
 .brand {
   &-title {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 1px 2px 2px rgba(darken($gray-1, 5%), 25%),
+        -1px -2px 2px rgba(lighten($gray-1, 50%), 25%);
+
+    &--vertical,
+    &--horizon {
+      filter: blur(0.4pt);
+    }
 
     &--vertical {
       writing-mode: vertical-rl;
