@@ -21,6 +21,7 @@ import Glass from '@/components/element/Glass.vue';
 
 #home {
   background: linear-gradient(120deg, $gray-6, $gray-5);
+  background-position: 15% 25%;
 }
 
 .brand {
@@ -51,9 +52,6 @@ import Glass from '@/components/element/Glass.vue';
       position: absolute;
       margin: 0;
       white-space: nowrap;
-
-      // Visual Fix
-      margin-left: 0.325em;
     }
   }
 }
