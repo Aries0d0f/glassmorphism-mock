@@ -27,6 +27,7 @@ import Glass from '@/components/element/Glass.vue';
   &-title {
     position: relative;
     display: flex;
+    width: 128px;
     justify-content: center;
     align-items: center;
     text-shadow: 1px 2px 2px rgba(darken($gray-1, 5%), 25%),
@@ -49,6 +50,7 @@ import Glass from '@/components/element/Glass.vue';
     &--horizon {
       position: absolute;
       margin: 0;
+      white-space: nowrap;
 
       // Visual Fix
       margin-left: 0.325em;

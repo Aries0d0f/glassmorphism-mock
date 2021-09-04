@@ -11,6 +11,8 @@
 
 .glass {
   &-container {
+    position: relative;
+    display: flex;
     padding: 14px 18px 18px 14px;
     display: inline-flex;
     border-radius: 6px;
